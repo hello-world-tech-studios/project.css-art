@@ -1,16 +1,72 @@
-.p1{
- font-size: 800px;
- border: 3px solid teal;
+.faceShape{
+ font-size: 900px;
  margin: 0px;
  width: 100vw;
  text-align: center;
- background-color: aqua;
-
+ letter-spacing: 70px;
+ z-index: 1;
+ position: absolute;
 }
 .div1{
 }
-.p2{
+.rightGlass{
   font-size: 400px;
   font-weight: 300;
-  margin: 0px;
+  margin-top: 165px;
+  margin-left: 860px;
+  transform: rotate(90deg);
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+}
+.rightEye{
+  font-size: 400px;
+  font-weight: 300;
+  margin-top: 130px;
+  margin-left: 392px;
+  z-index: 3;
+  display: inline-block;
+  position: absolute;
+}
+.smile{
+  font-size: 400px;
+  font-weight: 300;
+  margin-top: 662px;
+  margin-left: 581px;
+  transform: rotate(90deg);
+  z-index: 4;
+  position: absolute;
+}
+.leftGlass{
+  font-size: 400px;
+  font-weight: 300;
+  margin-top: 165px;
+  margin-left: 319px;
+  transform: rotate(90deg);
+  z-index: 2;
+  position: absolute;
+}
+.leftEye{
+  font-size: 400px;
+  font-weight: 300;
+  margin-top: 130px;
+  margin-left: 728px;
+  z-index: 3;
+  position: absolute;
+}
+.div2{
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+
+.div3{
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+body{
+  background-color: aqua;
+  border: 10px solid teal;
+  position: absolute;
 }
