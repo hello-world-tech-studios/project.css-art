@@ -1,7 +1,12 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .faceShape {
   font-size: 900px;
   margin: 0px;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   letter-spacing: 70px;
   z-index: 1;
@@ -13,8 +18,8 @@
 .rightGlass {
   font-size: 400px;
   font-weight: 300;
-  margin-top: 20vh;
-  margin-left: 65vw;
+  margin-top: 10%;
+  margin-left: 65%;
   transform: rotate(90deg);
   z-index: 2;
   display: inline-block;
@@ -24,8 +29,8 @@
 .rightEye {
   font-size: 400px;
   font-weight: 300;
-  margin-top: 17vh;
-  margin-left: 31vw;
+  margin-top: 10%;
+  margin-left: 31%;
   z-index: 3;
   display: inline-block;
   position: absolute;
@@ -34,8 +39,8 @@
 .smile {
   font-size: 400px;
   font-weight: 300;
-  margin-top: 80vh;
-  margin-left: 45vw;
+  margin-top: 50%;
+  margin-left: 45%;
   transform: rotate(90deg);
   z-index: 4;
   position: absolute;
@@ -44,8 +49,8 @@
 .leftGlass {
   font-size: 400px;
   font-weight: 300;
-  margin-top: 20vh;
-  margin-left: 25vw;
+  margin-top: 10%;
+  margin-left: 25%;
   transform: rotate(90deg);
   z-index: 2;
   position: absolute;
@@ -54,8 +59,8 @@
 .leftEye {
   font-size: 400px;
   font-weight: 300;
-  margin-top: 17vh;
-  margin-left: 57vw;
+  margin-top: 10%;
+  margin-left: 57%;
   z-index: 3;
   position: absolute;
 }
